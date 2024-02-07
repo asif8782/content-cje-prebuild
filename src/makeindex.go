@@ -16,7 +16,7 @@ func main() {
 	s := `<%@ page import = "java.io.*,java.util.*, javax.servlet.*" %>
 <html>
 <body>
-<h2>Hello `+ v +` the IIS server is running!</h2>
+<h2>Hello `+ v +` the server is running!</h2>
 <h1>The curent server time is 
 <%
          Date date = new Date();
